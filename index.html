@@ -53,7 +53,7 @@
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contributions</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -110,7 +110,7 @@
     </section> -->
 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="books">
+    <section class="bg-light" id="projects">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -134,13 +134,13 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#modalAIWS">
               <!-- <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div> -->
-              <img class="img-fluid" src="img/portfolio/AI-WS-Thumb.png" alt="">
+              <img class="img-fluid" height="450px" width="320px" src="img/portfolio/AI-WS-Thumb.png" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>AI-WS</h4>
@@ -148,13 +148,13 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" href="#modalBotNx">
               <!-- <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div> -->
-              <img class="img-fluid" src="img/portfolio/BotNx-Thumb.jpg" alt="">
+              <img class="img-fluid" height="320px" width="260px" src="img/portfolio/BotNx-Thumb.jpg" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>BotNx</h4>
@@ -509,9 +509,9 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Practical AI</h2>
-                  <p class="item-intro text-muted">AI Open Book</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Most of the AI books in the market focus on the theoretical concepts of the AI at academic level. Advanced one go into the depth of mathematically models which are not so easy to understand for people with lighter mathematics knowledge. Very few of them focus on the practical aspects of the AI implementation.</p> 
+                  <p class="item-intro text-muted">GitHub: <a href='https://github.com/EazeAI/PracticalAI-OpenBook'>https://github.com/EazeAI/PracticalAI-OpenBook</a></p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/PracticalAI-Full.jpg" alt="">
+                  <p>Most of the AI books in the market focus on the theoretical concepts of the AI at academic level. Advanced one go into the depth of mathematically models which are not so easy to understand for people with lighter mathematics knowledge. Very few of them focus on the practical aspects of the AI implementation.</p>
 
 <p>Practical AI bridges the gap by focusing on the latest advancements of AI and mapping them to the practical implementation scenarios with use cases thereby taking AI out of academics and labs (of few startup or blue chip firms) to a wider industry. At every stage proper care is been taken in mapping the AI concepts to the advancements in other digital technologies as appropriate</p>
 
@@ -539,7 +539,7 @@
     </div>
 
     <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="modalAIWS" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -552,15 +552,28 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <h2 class="text-uppercase">AI-WS</h2>
+                  <p class="item-intro text-muted">GitHub: <a href='https://github.com/EazeAI/AI-WS'>https://github.com/EazeAI/AI-WS</a></p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/AI-WS-Full.png" alt="">
+                  <p>AI-WS is a set of ready to use RESTful webservices implementing various AI scenarios and models which user can call with necessary payload (data) and get the output back</p>
+
+                  <h5>List of Services</h5>
+                  <ul>
+                    <li>Natural Language Processing</li>
+                    <ul>
+                      <li>Text Analysis</li>
+                      <li>Sentiment Analysis</li>
+                    </ul>
+                  <li>Computer Vision</li>
+                    <ul>
+                      <li>Image Processing</li>
+                    </ul>
+                  </ul>
+                  <!-- <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Explore</li>
                     <li>Category: Graphic Design</li>
-                  </ul>
+                  </ul> -->
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -573,7 +586,7 @@
     </div>
 
     <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="modalBotNx" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -586,15 +599,15 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
+                  <h2 class="text-uppercase">BotNx</h2>
+                  <p class="item-intro text-muted">GitHub: <a href='https://github.com/EazeAI/BotNx'>https://github.com/EazeAI/BotNx</a></p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/BotNx-Full.jpg" alt="">
+                  <p>Most of the commercial chatbot today work on the basis of rule based responses in closed domain which, this experimental bot tries to take to the next level with contextual response generations in a generalized domain. My interest is to take this from generalized domain to open domain. This chatbot is completely customizable through json configuration files so that specific context and knowledge can be hooked onto the chatbot!</p>
+                  <!-- <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Finish</li>
                     <li>Category: Identity</li>
-                  </ul>
+                  </ul> -->
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
